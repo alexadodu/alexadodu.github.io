@@ -59,8 +59,9 @@ body {
 .header .puesto p {
     font-family: 'JetBrains Mono', monospace;
     font-size: 18px;
-    color: var(--azul);
+    color: white;
     margin-bottom: 30px;
+    background-color: var(--azul);
 }
 
 .content .sobre-mi p {
@@ -71,6 +72,9 @@ body {
 
 .content .badge-base {
     margin-bottom: 50px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .cv, .email {

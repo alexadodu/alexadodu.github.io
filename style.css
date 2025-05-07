@@ -118,5 +118,7 @@ body {
 }
 
 @media (min-width: 500px) {
-
+    .all-body {
+        width: 50%;
+    }
 }

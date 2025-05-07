@@ -1,0 +1,118 @@
+:root {
+    --azul: #8fb8e9;
+    --amarillo: #ecc18f;
+    --beige: #f6f3df;
+    --azul_ocuro: #383665;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--beige);
+    color: var(--azul_ocuro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    }
+
+.all-body {
+    background-color: #fff;
+    padding: 3rem;
+    margin: 20px 0px;
+    border-radius: 2rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header img {
+    height: 65px;
+    width: auto;
+}
+
+.header .imagen-perfil img {
+    width: 100%;
+    height: 230px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.header p {
+    font-size: 35px;
+    font-weight: bold;   
+    margin-block-end: 0px; 
+    margin-block-start: 10px; 
+}
+
+.header .puesto p {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 18px;
+    color: var(--azul);
+    margin-bottom: 30px;
+}
+
+.content .sobre-mi p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 60px;
+}
+
+.content .badge-base {
+    margin-bottom: 50px;
+}
+
+.cv, .email {
+    margin: 20px 0px;
+}
+
+.cv img, .email img {
+    width: 25px;
+    height: auto;
+    opacity: 0.8;
+    filter: invert(100%);
+}
+
+.cv img {
+    width: 25px;
+    height: auto;
+}
+
+.cv a, .email a {
+    background-color: var(--amarillo);
+    color: var(--azul_ocuro);
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: background-color 0.3s ease;
+    height: 45px;
+}
+
+.email a {
+    background-color: var(--azul);
+}
+
+.cv a:hover, .email a:hover {
+    background-color: var(--azul_ocuro);
+    color: white;
+}
+
+@media (min-width: 500px) {
+
+}

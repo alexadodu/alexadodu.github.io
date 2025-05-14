@@ -42,7 +42,7 @@ body {
 
 .header .imagen-perfil img {
     width: 100%;
-    height: 230px;
+    height: 10rem;
     aspect-ratio: 1/1;
     border-radius: 50%;
     object-fit: cover;
@@ -50,28 +50,34 @@ body {
 }
 
 .header p {
-    font-size: 35px;
+    font-size: 2.2rem;
     font-weight: bold;   
     margin-block-end: 0px; 
     margin-block-start: 10px; 
 }
 
-.header .puesto p {
+.header .puesto1 p {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 18px;
-    color: white;
+    font-size: 1rem;
+    color: var(--azul_ocuro);
+    background-color: var(--azul);
+}
+
+.header .puesto2 p {
+    font-size: 1.1rem;
+    color: var(--azul_ocuro);
     margin-bottom: 30px;
     background-color: var(--azul);
 }
 
 .content .sobre-mi p {
-    font-size: 18px;
+    font-size: 0.9rem;
     line-height: 1.6;
     margin-bottom: 60px;
 }
 
 .content .badge-base {
-    margin-bottom: 50px;
+    margin-top: 50px;
     margin-left: 15px;
     display: flex;
     justify-content: center;
@@ -81,7 +87,7 @@ body {
     margin: 20px 0px;
 }
 
-.cv img, .email img {
+.cv img, .email img, .linkedin img {
     width: 25px;
     height: auto;
     opacity: 0.8;
@@ -93,8 +99,8 @@ body {
     height: auto;
 }
 
-.cv a, .email a {
-    background-color: var(--amarillo);
+.cv a, .email a, .linkedin a {
+    background-color: var(--azul);
     color: var(--azul_ocuro);
     border-radius: 10px;
     text-decoration: none;
@@ -108,11 +114,11 @@ body {
     height: 45px;
 }
 
-.email a {
-    background-color: var(--azul);
+.cv a {
+    background-color: var(--amarillo);
 }
 
-.cv a:hover, .email a:hover {
+.cv a:hover, .email a:hover, .linkedin a:hover {
     background-color: var(--azul_ocuro);
     color: white;
 }
